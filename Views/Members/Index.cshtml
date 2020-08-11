@@ -9,6 +9,18 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+@{ 
+    ViewBag.Title = "About";
+}
+
+@{ 
+    ViewData["Text"] = "これはテストです";
+}
+
+
+<h2>@ViewData["Text"]</h2>
+
 <table class="table">
     <thead>
         <tr>
